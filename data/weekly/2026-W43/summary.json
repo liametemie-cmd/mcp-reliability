@@ -1,0 +1,51 @@
+{
+ "week": "2026-W43",
+ "generated_at": "2026-10-19T13:11:47+00:00",
+ "source": "https://faceabot.com",
+ "attribution": "Reliability data: Faceabot (https://faceabot.com)",
+ "catalog": {
+  "total": 44737,
+  "remote": 29284,
+  "measured": 19556,
+  "reliable": 5333,
+  "workTested": 7084,
+  "provenWorking": 3653,
+  "runsTotal": 228972
+ },
+ "last_day": {
+  "day": "2026-10-19",
+  "checks": 9542,
+  "successRate": 0.932,
+  "serversChecked": 9542,
+  "avgLatencyMs": 7401
+ },
+ "failure_reasons_last_day": [
+  {
+   "status": "auth_required",
+   "n": 2390
+  },
+  {
+   "status": "timeout",
+   "n": 233
+  },
+  {
+   "status": "gone",
+   "n": 89
+  },
+  {
+   "status": "http_530",
+   "n": 38
+  },
+  {
+   "status": "http_503",
+   "n": 24
+  },
+  {
+   "status": "http_402",
+   "n": 22
+  }
+ ],
+ "method": "Each check is an MCP initialize + tools/list from Faceabot (User-Agent FaceabotProbe/1.0) plus, when the server declares a read-only tool (readOnlyHint), one call of that tool with a neutral sample input to check it really returns a result. reliable = ≥95% success over ≥3 checks with ≥3 consecutive successes; requires_authentication = private server, not counted as a failure.",
+ "scope": "Sample: the 100 best-proven servers. The full database is not downloadable; look up any single server with /api/reliability?url=… or the MCP tool check_reliability.",
+ "terms": "https://faceabot.com/conditions"
+}

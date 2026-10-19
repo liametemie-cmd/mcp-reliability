@@ -1,48 +1,48 @@
 {
- "week": "2026-W42",
- "generated_at": "2026-10-15T16:22:55+00:00",
+ "week": "2026-W43",
+ "generated_at": "2026-10-19T13:11:47+00:00",
  "source": "https://faceabot.com",
  "attribution": "Reliability data: Faceabot (https://faceabot.com)",
  "catalog": {
-  "total": 42599,
-  "remote": 27630,
-  "measured": 13407,
-  "reliable": 4342,
-  "workTested": 5393,
-  "provenWorking": 3165,
-  "runsTotal": 161986
+  "total": 44737,
+  "remote": 29284,
+  "measured": 19556,
+  "reliable": 5333,
+  "workTested": 7084,
+  "provenWorking": 3653,
+  "runsTotal": 228972
  },
  "last_day": {
-  "day": "2026-10-15",
-  "checks": 11929,
-  "successRate": 0.963,
-  "serversChecked": 5144,
-  "avgLatencyMs": 4416
+  "day": "2026-10-19",
+  "checks": 9542,
+  "successRate": 0.932,
+  "serversChecked": 9542,
+  "avgLatencyMs": 7401
  },
  "failure_reasons_last_day": [
   {
-   "status": "bad_tools_list",
-   "n": 377
-  },
-  {
    "status": "auth_required",
-   "n": 119
+   "n": 2390
   },
   {
    "status": "timeout",
-   "n": 31
+   "n": 233
   },
   {
-   "status": "http_400",
-   "n": 9
+   "status": "gone",
+   "n": 89
   },
   {
    "status": "http_530",
-   "n": 4
+   "n": 38
   },
   {
-   "status": "http_502",
-   "n": 4
+   "status": "http_503",
+   "n": 24
+  },
+  {
+   "status": "http_402",
+   "n": 22
   }
  ],
  "method": "Each check is an MCP initialize + tools/list from Faceabot (User-Agent FaceabotProbe/1.0) plus, when the server declares a read-only tool (readOnlyHint), one call of that tool with a neutral sample input to check it really returns a result. reliable = ≥95% success over ≥3 checks with ≥3 consecutive successes; requires_authentication = private server, not counted as a failure.",
