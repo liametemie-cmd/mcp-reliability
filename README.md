@@ -2,22 +2,22 @@
 
 **Which public MCP servers actually work?** Every day, [Faceabot](https://faceabot.com) connects to thousands of public MCP (Model Context Protocol) servers like an AI agent would, and records whether they answer, list their tools and complete a real read-only task. This repository publishes, every Monday, the **100 best-proven servers** and the global figures.
 
-**This week (2026-W43, generated 2026-10-19):** 19,556 public MCP servers measured out of 44,737 in the catalog; **5,333 proven reliable**; 3,653 completed a real task; 228,972 checks in total. On 2026-10-19 (UTC day in progress): 9,542 checks, 93 % success, average answer time 7,401 ms.
+**This week (2026-W44, generated 2026-10-26):** 22,613 public MCP servers measured out of 48,708 in the catalog; **6,594 proven reliable**; 5,319 completed a real task; 351,976 checks in total. On 2026-10-26 (UTC day in progress): 9,909 checks, 96 % success, average answer time 5,406 ms.
 
 ### Top 10 this week
 
 | # | Server | Reliability | Real task | Latency |
 |---|---|---|---|---|
-| 1 | [ai.contextstudios/mcp](https://faceabot.com/tools/ai.contextstudios/mcp) | 100 % over 42 checks | proven_working | 4816 ms |
-| 2 | [com.deployedbyai/the-deploy-log](https://faceabot.com/tools/com.deployedbyai/the-deploy-log) | 100 % over 42 checks | proven_working | 4865 ms |
-| 3 | [ai.deepdna/knowledge](https://faceabot.com/tools/ai.deepdna/knowledge) | 100 % over 42 checks | proven_working | 4919 ms |
-| 4 | [ai.clearvoyance/clearvoyance](https://faceabot.com/tools/ai.clearvoyance/clearvoyance) | 100 % over 42 checks | proven_working | 4931 ms |
-| 5 | [ai.human4ai/collaboration](https://faceabot.com/tools/ai.human4ai/collaboration) | 100 % over 42 checks | proven_working | 4934 ms |
-| 6 | [ai.dripmetrics/mcp](https://faceabot.com/tools/ai.dripmetrics/mcp) | 100 % over 42 checks | proven_working | 4986 ms |
-| 7 | [club.worldorder/cube-playground](https://faceabot.com/tools/club.worldorder/cube-playground) | 100 % over 42 checks | proven_working | 5001 ms |
-| 8 | [ai.justautomate/website](https://faceabot.com/tools/ai.justautomate/website) | 100 % over 42 checks | proven_working | 5025 ms |
-| 9 | [ai.councilof/gspc](https://faceabot.com/tools/ai.councilof/gspc) | 100 % over 42 checks | proven_working | 5030 ms |
-| 10 | [com.animatemytravel/studio](https://faceabot.com/tools/com.animatemytravel/studio) | 100 % over 42 checks | proven_working | 5030 ms |
+| 1 | [com.faceabot/no-transit](https://faceabot.com/tools/com.faceabot/no-transit) | 100 % over 161 checks | proven_working | — ms |
+| 2 | [com.faceabot/wikipedia](https://faceabot.com/tools/com.faceabot/wikipedia) | 100 % over 153 checks | proven_working | — ms |
+| 3 | [com.faceabot/news](https://faceabot.com/tools/com.faceabot/news) | 100 % over 149 checks | proven_working | — ms |
+| 4 | [com.faceabot/translate](https://faceabot.com/tools/com.faceabot/translate) | 100 % over 149 checks | proven_working | — ms |
+| 5 | [com.faceabot/web-reader](https://faceabot.com/tools/com.faceabot/web-reader) | 100 % over 138 checks | proven_working | 1 ms |
+| 6 | [com.faceabot/x](https://faceabot.com/tools/com.faceabot/x) | 100 % over 135 checks | proven_working | 4217 ms |
+| 7 | [com.faceabot/reddit](https://faceabot.com/tools/com.faceabot/reddit) | 100 % over 134 checks | proven_working | 4213 ms |
+| 8 | [com.faceabot/service-status](https://faceabot.com/tools/com.faceabot/service-status) | 100 % over 133 checks | proven_working | 2753 ms |
+| 9 | [com.faceabot/rail-finland](https://faceabot.com/tools/com.faceabot/rail-finland) | 100 % over 111 checks | proven_working | — ms |
+| 10 | [com.faceabot/rail-ireland](https://faceabot.com/tools/com.faceabot/rail-ireland) | 100 % over 111 checks | proven_working | — ms |
 
 Full list: [`data/latest/top100.csv`](data/latest/top100.csv)
 
