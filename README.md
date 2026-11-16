@@ -2,22 +2,22 @@
 
 **Which public MCP servers actually work?** Every day, [Faceabot](https://faceabot.com) connects to thousands of public MCP (Model Context Protocol) servers like an AI agent would, and records whether they answer, list their tools and complete a real read-only task. This repository publishes, every Monday, the **100 best-proven servers** and the global figures.
 
-**This week (2026-W46, generated 2026-11-09):** 29,127 public MCP servers measured out of 57,605 in the catalog; **12,950 proven reliable**; 7,689 completed a real task; 491,823 checks in total. On 2026-11-09 (UTC day in progress): 5,139 checks, 92 % success, average answer time 706 ms.
+**This week (2026-W47, generated 2026-11-16):** 31,473 public MCP servers measured out of 62,597 in the catalog; **14,939 proven reliable**; 9,233 completed a real task; 565,673 checks in total. On 2026-11-16 (UTC day in progress): 6,035 checks, 87 % success, average answer time 772 ms.
 
 ### Top 10 this week
 
 | # | Server | Reliability | Real task | Latency |
 |---|---|---|---|---|
-| 1 | [com.faceabot/no-transit](https://faceabot.com/tools/com.faceabot/no-transit) | 100 % over 480 checks | proven_working | — ms |
-| 2 | [com.faceabot/news](https://faceabot.com/tools/com.faceabot/news) | 100 % over 468 checks | proven_working | — ms |
-| 3 | [com.faceabot/translate](https://faceabot.com/tools/com.faceabot/translate) | 100 % over 464 checks | proven_working | — ms |
-| 4 | [com.faceabot/web-reader](https://faceabot.com/tools/com.faceabot/web-reader) | 100 % over 456 checks | proven_working | — ms |
-| 5 | [com.faceabot/service-status](https://faceabot.com/tools/com.faceabot/service-status) | 100 % over 451 checks | proven_working | 160 ms |
-| 6 | [com.faceabot/transit-norway](https://faceabot.com/tools/com.faceabot/transit-norway) | 100 % over 430 checks | proven_working | — ms |
-| 7 | [com.faceabot/rail-finland](https://faceabot.com/tools/com.faceabot/rail-finland) | 100 % over 429 checks | proven_working | — ms |
-| 8 | [com.faceabot/rail-ireland](https://faceabot.com/tools/com.faceabot/rail-ireland) | 100 % over 428 checks | proven_working | — ms |
-| 9 | [com.faceabot/places](https://faceabot.com/tools/com.faceabot/places) | 100 % over 413 checks | proven_working | — ms |
-| 10 | [com.faceabot/geocode](https://faceabot.com/tools/com.faceabot/geocode) | 100 % over 411 checks | proven_working | — ms |
+| 1 | [com.faceabot/no-transit](https://faceabot.com/tools/com.faceabot/no-transit) | 100 % over 637 checks | proven_working | — ms |
+| 2 | [com.faceabot/news](https://faceabot.com/tools/com.faceabot/news) | 100 % over 625 checks | proven_working | 3 ms |
+| 3 | [com.faceabot/translate](https://faceabot.com/tools/com.faceabot/translate) | 100 % over 620 checks | proven_working | — ms |
+| 4 | [com.faceabot/web-reader](https://faceabot.com/tools/com.faceabot/web-reader) | 100 % over 612 checks | proven_working | 3 ms |
+| 5 | [com.faceabot/youtube](https://faceabot.com/tools/com.faceabot/youtube) | 100 % over 606 checks | proven_working | 355 ms |
+| 6 | [com.faceabot/transit-norway](https://faceabot.com/tools/com.faceabot/transit-norway) | 100 % over 587 checks | proven_working | — ms |
+| 7 | [com.faceabot/rail-ireland](https://faceabot.com/tools/com.faceabot/rail-ireland) | 100 % over 585 checks | proven_working | — ms |
+| 8 | [com.faceabot/places](https://faceabot.com/tools/com.faceabot/places) | 100 % over 570 checks | proven_working | 3 ms |
+| 9 | [com.faceabot/geocode](https://faceabot.com/tools/com.faceabot/geocode) | 100 % over 568 checks | proven_working | — ms |
+| 10 | [com.faceabot/weather](https://faceabot.com/tools/com.faceabot/weather) | 100 % over 557 checks | proven_working | 3 ms |
 
 Full list: [`data/latest/top100.csv`](data/latest/top100.csv)
 
